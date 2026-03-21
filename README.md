@@ -30,13 +30,6 @@ Stable JSON envelope (schema v1), auto-detected piped output, structured errors 
 
 Vite + React 19 + TypeScript + Tailwind CSS v4. Dark theme, CSS-only animations, static SPA.
 
-## Local dev
-
-```bash
-pnpm install
-pnpm dev        # http://localhost:5173
-pnpm build      # output → dist/
-```
 
 ## License
 
