@@ -24,6 +24,15 @@ export const SiteFooter = () => (
           npm
         </a>
         <span className="text-border">|</span>
+        <a
+          href="https://clawhub.ai/shan8851/tfl-cli"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-text transition-colors"
+        >
+          🦞 ClawHub
+        </a>
+        <span className="text-border">|</span>
         <span>MIT License</span>
       </div>
 

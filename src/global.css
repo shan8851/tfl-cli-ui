@@ -42,6 +42,8 @@
   --color-border: var(--border);
   --color-accent-red: var(--accent-red);
   --color-accent-blue: var(--accent-blue);
+  --color-status-good: var(--status-good);
+  --color-status-minor: var(--status-minor);
 
   --font-family-heading: var(--font-heading);
   --font-family-mono: var(--font-mono);
