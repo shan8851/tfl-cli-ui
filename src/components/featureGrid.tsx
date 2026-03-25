@@ -7,7 +7,7 @@ export const FeatureGrid = () => (
       Everything you need
     </h2>
     <p className="text-muted text-center mb-12 max-w-lg mx-auto">
-      Six commands covering the full TfL network. No API key required.
+      Six core commands across the full TfL network, plus agent-friendly projection for route, arrivals, and bikes.
     </p>
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

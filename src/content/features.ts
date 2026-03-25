@@ -21,7 +21,7 @@ export const FEATURES: Feature[] = [
   {
     borderColor: '#B36305',
     command: 'tfl disruptions',
-    description: 'Current disruptions with detail. See what\'s broken right now across the network.',
+    description: 'Current disruptions with detail. See what is broken right now across the network.',
     title: 'Disruptions',
   },
   {
@@ -41,5 +41,11 @@ export const FEATURES: Feature[] = [
     command: 'tfl search stops "angel"',
     description: 'Find stops and stations by name. Returns IDs, modes, and coordinates.',
     title: 'Stop Search',
+  },
+  {
+    borderColor: '#003688',
+    command: 'tfl route "SE1 9SG" "EC2R 8AH" --output journeys.0.durationMinutes',
+    description: 'Project one field or subtree from route, arrivals, or bikes without post-processing the full payload.',
+    title: 'Agent Projection',
   },
 ];

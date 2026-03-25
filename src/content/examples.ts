@@ -52,4 +52,9 @@ export const EXAMPLES: Example[] = [
     ],
     title: 'Live Arrivals',
   },
+  {
+    command: 'tfl route "SE1 9SG" "EC2R 8AH" --output journeys.0.durationMinutes',
+    lines: [{ text: '15' }],
+    title: 'Agent Projection',
+  },
 ];

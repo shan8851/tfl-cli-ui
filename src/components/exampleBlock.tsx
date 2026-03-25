@@ -23,13 +23,13 @@ export const ExampleBlock = ({ example }: ExampleBlockProps) => (
     <div className="p-4 font-mono text-sm leading-relaxed overflow-x-auto">
       <div className="mb-2">
         <span className="text-muted">$ </span>
-        <span className="text-text">{example.command}</span>
+        <span className="text-text whitespace-pre">{example.command}</span>
       </div>
 
       {example.lines.map((line, index) => (
         <div key={index} className={line.text === '' ? 'h-4' : undefined}>
           {line.text && (
-            <span style={line.color ? { color: line.color } : undefined}>
+            <span className="whitespace-pre" style={line.color ? { color: line.color } : undefined}>
               {line.text}
             </span>
           )}

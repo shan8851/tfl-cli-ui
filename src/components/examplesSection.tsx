@@ -7,7 +7,7 @@ export const ExamplesSection = () => (
       See it in action
     </h2>
     <p className="text-muted text-center mb-12 max-w-lg mx-auto">
-      Real output from the CLI. Colorized, compact, and readable.
+      Real output from the CLI. Human-readable by default, precise when agents only need one field.
     </p>
 
     <div className="flex flex-col gap-6">

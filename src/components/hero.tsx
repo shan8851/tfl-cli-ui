@@ -17,7 +17,9 @@ export const Hero = () => (
       </h1>
 
       <p className="text-muted text-center text-lg max-w-xl leading-relaxed">
-        Journey planning, live tube status, disruptions, arrivals, bike availability. One CLI, zero auth.
+        Journey planning, live tube status, disruptions, arrivals, bike availability — and
+        <code className="text-accent-blue font-mono text-sm mx-1">--output</code>
+        when agents only need one field instead of the whole payload.
       </p>
 
       <InstallBlock />
